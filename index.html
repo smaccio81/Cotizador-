@@ -8,7 +8,7 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js"></script>
 <style>
 :root{
-  --v:#8BBF2E;--n:#1a1a1a;--go:#2d2d2d;--gc:#f4f4f4;
+  --v:#2563EB;--n:#0D1B2E;--go:#1A2840;--gc:#F0F4FF;
   --b:#fff;--am:#F5C400;--r:#e74c3c;--br:#ddd;
   --f:'Montserrat',sans-serif;
 }
@@ -58,13 +58,13 @@ body{font-family:var(--f);background:var(--gc);color:var(--n);min-height:100vh;f
 
 .tg{display:grid;grid-template-columns:repeat(auto-fill,minmax(138px,1fr));gap:6px;margin-top:8px;}
 .tc{border:1.5px solid var(--br);border-radius:6px;padding:7px 9px;cursor:pointer;transition:all .15s;background:#fff;}
-.tc:hover,.tc.sel{border-color:var(--v);background:#f0f7e0;}
+.tc:hover,.tc.sel{border-color:var(--v);background:#EFF6FF;}
 .tc .tn{font-size:11px;font-weight:700;color:var(--n);}
 .tc .tr{font-size:10px;color:var(--v);font-weight:600;margin-top:2px;}
 
 .cb{background:var(--n);border-radius:8px;padding:14px;color:#fff;}
 .cb h3{font-size:10px;font-weight:700;text-transform:uppercase;letter-spacing:1px;color:var(--v);margin-bottom:10px;}
-.cr{display:flex;justify-content:space-between;align-items:center;padding:5px 0;border-bottom:1px solid #2a2a2a;font-size:11px;}
+.cr{display:flex;justify-content:space-between;align-items:center;padding:5px 0;border-bottom:1px solid #1A3050;font-size:11px;}
 .cr:last-child{border-bottom:none;}
 .cl{color:#999;}
 .cv{font-size:15px;font-weight:800;color:#fff;}
@@ -72,11 +72,11 @@ body{font-family:var(--f);background:var(--gc);color:var(--n);min-height:100vh;f
 .cv.y{color:var(--am);}
 .cv.red{color:var(--r);}
 
-.sug-box{background:#f0f7e0;border:1.5px solid var(--v);border-radius:8px;padding:10px 14px;margin-bottom:12px;}
-.sug-box .st{font-size:10px;font-weight:700;text-transform:uppercase;letter-spacing:.5px;color:#5a8a00;margin-bottom:6px;}
+.sug-box{background:#EFF6FF;border:1.5px solid var(--v);border-radius:8px;padding:10px 14px;margin-bottom:12px;}
+.sug-box .st{font-size:10px;font-weight:700;text-transform:uppercase;letter-spacing:.5px;color:#1E40AF;margin-bottom:6px;}
 .si{display:flex;flex-wrap:wrap;gap:6px;}
 .sc{background:var(--v);color:var(--n);font-size:11px;font-weight:700;padding:4px 10px;border-radius:20px;cursor:pointer;font-family:var(--f);}
-.sc:hover{background:#7aaa20;}
+.sc:hover{background:#1D4ED8;}
 
 .etabs{display:flex;gap:2px;margin-bottom:12px;border-bottom:2px solid var(--br);}
 .etab{font-family:var(--f);font-size:11px;font-weight:700;text-transform:uppercase;letter-spacing:.5px;padding:7px 13px;border:none;background:none;cursor:pointer;color:#888;border-bottom:2px solid transparent;margin-bottom:-2px;transition:all .15s;}
@@ -104,7 +104,7 @@ body{font-family:var(--f);background:var(--gc);color:var(--n);min-height:100vh;f
 .rc{background:#f9f9f9;border:1px solid var(--br);border-radius:6px;padding:12px;}
 .rc .rl{font-size:9px;font-weight:700;text-transform:uppercase;letter-spacing:.5px;color:#aaa;margin-bottom:3px;}
 .rc .rv{font-size:20px;font-weight:800;color:var(--n);}
-.rc.rv-v{border-color:var(--v);background:#f0f7e0;}
+.rc.rv-v{border-color:var(--v);background:#EFF6FF;}
 .rc.rv-v .rv{color:var(--v);}
 .rc.rv-r{border-color:#f5ccc8;background:#fff5f5;}
 .rc.rv-r .rv{color:var(--r);}
@@ -123,7 +123,7 @@ body{font-family:var(--f);background:var(--gc);color:var(--n);min-height:100vh;f
 
 .btn{font-family:var(--f);font-size:11px;font-weight:700;text-transform:uppercase;letter-spacing:.5px;padding:10px 20px;border-radius:5px;border:none;cursor:pointer;transition:all .15s;display:inline-flex;align-items:center;gap:7px;}
 .btn-v{background:var(--v);color:var(--n);}
-.btn-v:hover{background:#7aaa20;}
+.btn-v:hover{background:#1D4ED8;}
 .btn-n{background:var(--n);color:#fff;}
 .btn-n:hover{background:#333;}
 .btn-o{background:transparent;color:var(--n);border:1.5px solid var(--br);}
@@ -139,7 +139,7 @@ body{font-family:var(--f);background:var(--gc);color:var(--n);min-height:100vh;f
 .sec.active{display:block;}
 
 .uz{border:2px dashed #ccc;border-radius:8px;padding:22px;text-align:center;cursor:pointer;transition:all .2s;background:#fafafa;}
-.uz:hover{border-color:var(--v);background:#f0f7e0;}
+.uz:hover{border-color:var(--v);background:#EFF6FF;}
 .uz input{display:none;}
 .uz .ui{font-size:26px;margin-bottom:6px;}
 .uz p{font-size:12px;color:#aaa;}
@@ -161,7 +161,7 @@ body{font-family:var(--f);background:var(--gc);color:var(--n);min-height:100vh;f
 .ri-tit{font-size:14px;font-weight:800;text-transform:uppercase;letter-spacing:1px;color:var(--n);margin-bottom:14px;border-bottom:3px solid var(--v);padding-bottom:6px;}
 .ri-grid{display:grid;grid-template-columns:1fr 1fr 1fr;gap:10px;margin-bottom:14px;}
 .ri-card{background:#f9f9f9;border:1px solid var(--br);border-radius:6px;padding:12px;}
-.ri-card.v{border-color:var(--v);background:#f0f7e0;}
+.ri-card.v{border-color:var(--v);background:#EFF6FF;}
 .ri-card.r{border-color:#f5ccc8;background:#fff5f5;}
 .ri-card .rl{font-size:9px;font-weight:700;text-transform:uppercase;letter-spacing:.5px;color:#aaa;margin-bottom:3px;}
 .ri-card .rv{font-size:18px;font-weight:800;}
@@ -184,12 +184,12 @@ body{font-family:var(--f);background:var(--gc);color:var(--n);min-height:100vh;f
 .pp-dest{font-size:13px;font-weight:700;margin-bottom:14px;}
 .pp-sec{font-size:10px;font-weight:700;text-transform:uppercase;letter-spacing:1px;color:var(--n);border-left:4px solid var(--v);padding-left:9px;margin:16px 0 10px;}
 .pp-intro{font-size:12px;line-height:1.8;color:#333;margin-bottom:10px;}
-.pp-intro-dest{background:#f0f7e0;border-left:4px solid var(--v);padding:10px 14px;font-size:11px;font-style:italic;color:#333;margin-bottom:12px;line-height:1.7;}
+.pp-intro-dest{background:#EFF6FF;border-left:4px solid var(--v);padding:10px 14px;font-size:11px;font-style:italic;color:#333;margin-bottom:12px;line-height:1.7;}
 
 .pp-esp{width:100%;border-collapse:collapse;font-size:11px;margin-bottom:10px;}
 .pp-esp th{background:var(--n);color:#fff;padding:6px 10px;font-size:10px;text-transform:uppercase;letter-spacing:.5px;font-weight:700;}
 .pp-esp td{padding:6px 10px;border:1px solid #e5e5e5;text-align:center;font-weight:600;}
-.pp-esp td.hc{background:#f0f7e0;font-weight:700;font-size:10px;color:var(--n);}
+.pp-esp td.hc{background:#EFF6FF;font-weight:700;font-size:10px;color:var(--n);}
 
 .fg-fichas{display:grid;grid-template-columns:1fr 1fr;gap:12px;margin-bottom:16px;}
 .fichas-section{page-break-inside:avoid;break-inside:avoid;}
@@ -336,7 +336,7 @@ body{font-family:var(--f);background:var(--gc);color:var(--n);min-height:100vh;f
 .eco-escenarios tr:last-child td{border-bottom:none;}
 /* Consumo kWh box */
 .kwh-box{display:grid;grid-template-columns:1fr 1fr 1fr;gap:8px;margin-top:10px;}
-.kwh-card{background:#1a1a1a;border-radius:6px;padding:10px 12px;color:#fff;}
+.kwh-card{background:#0D1B2E;border-radius:6px;padding:10px 12px;color:#fff;}
 .kwh-card .kl{font-size:9px;font-weight:700;text-transform:uppercase;letter-spacing:.5px;color:#aaa;margin-bottom:3px;}
 .kwh-card .kv{font-size:16px;font-weight:800;color:var(--v);}
 .kwh-card .ks{font-size:9px;color:#888;margin-top:2px;}
@@ -383,7 +383,7 @@ body{font-family:var(--f);background:var(--gc);color:var(--n);min-height:100vh;f
 #toast_notif{position:fixed;bottom:24px;left:50%;transform:translateX(-50%) translateY(20px);background:var(--n);color:#fff;padding:10px 22px;border-radius:6px;font-size:12px;font-weight:700;z-index:3000;opacity:0;transition:opacity .3s,transform .3s;pointer-events:none;border-left:4px solid var(--v);}
 #toast_notif.show{opacity:1;transform:translateX(-50%) translateY(0);}
 .preview-toggle{position:fixed;right:0;top:50%;transform:translateY(-50%);background:var(--v);color:var(--n);border:none;border-radius:8px 0 0 8px;padding:12px 7px;cursor:pointer;font-family:var(--f);font-size:9px;font-weight:800;text-transform:uppercase;letter-spacing:.8px;writing-mode:vertical-rl;text-orientation:mixed;z-index:900;box-shadow:-3px 0 10px rgba(0,0,0,.2);transition:background .2s;}
-.preview-toggle:hover{background:#7aaa20;}
+.preview-toggle:hover{background:#1D4ED8;}
 .preview-toggle.open-state{background:#444;color:#fff;}
 .preview-drawer{position:fixed;right:-46%;top:0;width:46%;height:100vh;background:#f0f0f0;border-left:3px solid var(--v);z-index:890;transition:right .3s cubic-bezier(.4,0,.2,1);box-shadow:-4px 0 24px rgba(0,0,0,.15);display:flex;flex-direction:column;}
 .preview-drawer.open{right:0;}
@@ -399,6 +399,18 @@ body{font-family:var(--f);background:var(--gc);color:var(--n);min-height:100vh;f
 .hdr-btn.save{border-color:var(--v);color:var(--v);}
 .hdr-btn.save:hover{background:var(--v);color:var(--n);}
 
+/* ===== AMBIENTES ===== */
+.amb-bar{display:flex;align-items:center;gap:6px;flex-wrap:wrap;padding:10px 18px;background:#f9f9f9;border-top:1px solid var(--br);}
+.amb-tab{font-family:var(--f);font-size:11px;font-weight:700;padding:5px 12px;border:1.5px solid var(--br);border-radius:20px;background:#fff;color:#666;cursor:pointer;transition:all .15s;display:inline-flex;align-items:center;gap:5px;white-space:nowrap;}
+.amb-tab.active{background:var(--v);border-color:var(--v);color:var(--n);}
+.amb-tab .amb-x{font-size:13px;opacity:.6;cursor:pointer;margin-left:2px;line-height:1;}
+.amb-tab .amb-x:hover{opacity:1;}
+.amb-add{font-family:var(--f);font-size:11px;font-weight:700;padding:5px 12px;border:1.5px dashed var(--v);border-radius:20px;background:none;color:var(--v);cursor:pointer;transition:all .15s;}
+.amb-add:hover{background:#EFF6FF;}
+.dim-direct-row{display:grid;grid-template-columns:1fr 1fr;gap:10px;margin-top:14px;padding-top:12px;border-top:1px dashed #ddd;}
+.dim-vol-input{font-size:15px!important;font-weight:700!important;border-color:var(--v)!important;background:#EFF6FF!important;}
+.dim-sup-input{font-size:15px!important;font-weight:700!important;border-color:#2563EB!important;}
+.pct-num-input{width:64px;border:1.5px solid var(--br);border-radius:5px;padding:6px 8px;font-size:16px;font-weight:800;text-align:center;color:var(--v);font-family:var(--f);}
 </style>
 </head>
 <body>
@@ -506,30 +518,69 @@ body{font-family:var(--f);background:var(--gc);color:var(--n);min-height:100vh;f
 
 <!-- S2 -->
 <div class="sec" id="step2">
+
+  <!-- Gestión de Ambientes -->
+  <div class="panel">
+    <div class="ph" style="justify-content:space-between;flex-wrap:wrap;gap:8px;">
+      <div style="display:flex;align-items:center;gap:10px;"><div class="ic">🏢</div><h2>Ambientes del Proyecto</h2></div>
+      <button class="amb-add" onclick="addAmb()">+ Agregar Ambiente</button>
+    </div>
+    <div class="amb-bar" id="amb_tabs"></div>
+  </div>
+
+  <!-- Nombre del Ambiente Activo -->
+  <div class="panel">
+    <div class="ph"><div class="ic">✏️</div><h2 id="amb_panel_tit">Datos del Ambiente</h2></div>
+    <div class="pb">
+      <div class="fg2">
+        <div class="fld">
+          <label>Nombre del Ambiente</label>
+          <input type="text" id="amb_nombre" placeholder="Ej: Galpón Principal, Sector Frío, Nave 2..." oninput="renameCurrentAmb()">
+        </div>
+        <div style="display:flex;align-items:flex-end;">
+          <button class="btn btn-o" id="del_amb_btn" style="color:var(--r);border-color:#f5ccc8;" onclick="delAmb()">✕ Eliminar Ambiente</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Dimensiones -->
   <div class="panel">
     <div class="ph"><div class="ic">📐</div><h2>Dimensiones del Espacio</h2></div>
     <div class="pb">
       <div class="dim-box" style="margin-bottom:14px;">
-        <div class="dim-tit">Medidas del Ambiente</div>
+        <div class="dim-tit">Ingresá dimensiones <em style="color:#bbb;">o</em> superficie/volumen directamente — lo que tengas disponible</div>
         <div class="fg3">
-          <div class="fld"><label>Largo (m)</label><input type="number" id="d_l" placeholder="0" oninput="calcDim()"></div>
-          <div class="fld"><label>Ancho (m)</label><input type="number" id="d_a" placeholder="0" oninput="calcDim()"></div>
-          <div class="fld"><label>Altura Total (m)</label><input type="number" id="d_at" placeholder="0" oninput="calcDim()"></div>
+          <div class="fld"><label>Largo (m)</label><input type="number" id="d_l" placeholder="0" oninput="calcDim('lah')"></div>
+          <div class="fld"><label>Ancho (m)</label><input type="number" id="d_a" placeholder="0" oninput="calcDim('lah')"></div>
+          <div class="fld"><label>Altura Total (m)</label><input type="number" id="d_at" placeholder="0" oninput="calcDim('lah')"></div>
         </div>
         <div class="fld" style="margin-top:10px;">
           <label>Altura de Cálculo (m) — dejar vacío si es igual a la total</label>
-          <input type="number" id="d_ac" placeholder="Se usará la altura total si se deja vacío" oninput="calcDim()">
+          <input type="number" id="d_ac" placeholder="Se usará la altura total si se deja vacío" oninput="calcDim('lah')">
           <div class="hint">Si difiere de la total, se aclarará en el presupuesto.</div>
         </div>
-        <div class="vol-bar"><span style="font-size:11px;color:#aaa;">Volumen de diseño:</span><span class="vv" id="vol_v">— m³</span></div>
+        <div class="dim-direct-row">
+          <div class="fld">
+            <label style="color:#1E40AF;">Superficie (m²) — ingreso directo</label>
+            <input type="number" id="d_sup" placeholder="Ej: 500" oninput="calcDim('sup')" class="dim-sup-input">
+            <div class="hint">Si ya tenés el m², cargalo acá (necesitás la altura de cálculo para computar m³)</div>
+          </div>
+          <div class="fld">
+            <label style="color:var(--v);font-weight:800;">Volumen de diseño (m³) — ingreso directo</label>
+            <input type="number" id="d_vol" placeholder="Ej: 2500" oninput="calcDim('vol')" class="dim-vol-input">
+            <div class="hint">O ingresá el m³ directamente si ya lo tenés calculado</div>
+          </div>
+        </div>
       </div>
       <div class="fld">
         <label>% Extracción sobre caudal instalado de inyección</label>
-        <div style="display:flex;align-items:center;gap:12px;margin-top:4px;">
-          <input type="range" id="pct_e" min="50" max="60" value="60" oninput="updExtPct()" style="flex:1;accent-color:var(--v);">
-          <span id="pct_e_v" style="font-size:22px;font-weight:800;color:var(--v);min-width:46px;">60%</span>
+        <div style="display:flex;align-items:center;gap:10px;margin-top:4px;">
+          <input type="range" id="pct_e" min="0" max="100" value="60" oninput="updExtPct()" style="flex:1;accent-color:var(--v);">
+          <input type="number" id="pct_e_num" value="60" min="0" max="100" oninput="updExtPctNum()" class="pct-num-input">
+          <span style="font-size:15px;font-weight:700;color:#aaa;">%</span>
         </div>
-        <div class="hint">Se calcula sobre el caudal total instalado de inyección. Rango recomendado: 50-60%.</div>
+        <div class="hint">Valor habitual: 60%. Ajustable libremente de 0% a 100% según el caso.</div>
       </div>
     </div>
   </div>
@@ -559,6 +610,14 @@ body{font-family:var(--f);background:var(--gc);color:var(--n);min-height:100vh;f
 
 <!-- S3 -->
 <div class="sec" id="step3">
+  <!-- Selector de Ambiente -->
+  <div class="panel" style="margin-bottom:12px;">
+    <div class="ph" style="justify-content:space-between;flex-wrap:wrap;gap:8px;">
+      <div style="display:flex;align-items:center;gap:10px;"><div class="ic">🏢</div><h2>Equipos para Ambiente:</h2></div>
+      <span style="font-size:10px;color:#aaa;font-weight:400;text-transform:none;">Seleccioná el ambiente y asigná sus equipos</span>
+    </div>
+    <div class="amb-bar" id="amb_tabs_s3"></div>
+  </div>
   <div class="panel">
     <div class="ph"><div class="ic">❄️</div><h2>Equipos de Inyección</h2></div>
     <div class="pb">
@@ -852,7 +911,8 @@ function moInyVal(){return parseFloat(document.getElementById('mo_iny_val').valu
 function moExtVal(){return parseFloat(document.getElementById('mo_ext_val').value)||0;}
 
 // ====== ESTADO ======
-const S={vol:0,aT:0,aC:0,pE:60,ren:0,qi:{},qe:{},com:false,pCom:5,desc:false,esqUrl:null,modo:'p',kwhIny:0,kwhExt:0,kwhTot:0,ecoData:null,descMonto:0,qpt_proj:{}};
+function defaultAmb(){return {id:'a'+Date.now(),nombre:'',d_l:'',d_a:'',d_at:'',d_ac:'',sup:0,vol:0,aT:0,aC:0,dimSource:'lah',ren_val:'',pE:60,qi:{},qe:{}};}
+const S={vol:0,aT:0,aC:0,pE:60,ren:0,qi:{},qe:{},com:false,pCom:5,desc:false,esqUrl:null,modo:'p',kwhIny:0,kwhExt:0,kwhTot:0,ecoData:null,descMonto:0,qpt_proj:{},dimSource:'lah',ambientes:[],ambActivo:0};
 
 // ====== MODE ======
 function setMode(m){
@@ -881,6 +941,7 @@ function goStep(n){
 
 // ====== INIT ======
 function init(){
+  if(!S.ambientes.length){const a=defaultAmb();a.nombre='Ambiente 1';S.ambientes=[a];S.ambActivo=0;}
   initPrices();
   const hoy=new Date().toISOString().split('T')[0];
   document.getElementById('cl_f').value=hoy;
@@ -889,6 +950,96 @@ function init(){
   ['pw','tc','si','po'].forEach(renderTab);
   renderExtTab();
   renderProjPtGrid();
+  renderAmbTabs();
+}
+
+// ====== AMBIENTES ======
+function renderAmbTabs(){
+  const tabs=document.getElementById('amb_tabs');
+  const tabs3=document.getElementById('amb_tabs_s3');
+  const html=S.ambientes.map((a,i)=>`<button class="amb-tab${i===S.ambActivo?' active':''}" onclick="switchAmb(${i})">${a.nombre||'Ambiente '+(i+1)}${S.ambientes.length>1?` <span class="amb-x" onclick="event.stopPropagation();delAmb(${i})">✕</span>`:''}</button>`).join('');
+  if(tabs)tabs.innerHTML=html;
+  if(tabs3)tabs3.innerHTML=html;
+  const btn=document.getElementById('del_amb_btn');
+  if(btn)btn.style.display=S.ambientes.length>1?'inline-flex':'none';
+  const a=S.ambientes[S.ambActivo]||{};
+  const nom=a.nombre||'Ambiente '+(S.ambActivo+1);
+  const tit=document.getElementById('amb_panel_tit');if(tit)tit.textContent='Datos del Ambiente — '+nom;
+  const nomEl=document.getElementById('amb_nombre');if(nomEl)nomEl.value=a.nombre||'';
+}
+function saveAmbState(){
+  const a=S.ambientes[S.ambActivo];if(!a)return;
+  a.d_l=document.getElementById('d_l').value;
+  a.d_a=document.getElementById('d_a').value;
+  a.d_at=document.getElementById('d_at').value;
+  a.d_ac=document.getElementById('d_ac').value;
+  a.sup=parseFloat(document.getElementById('d_sup').value)||0;
+  a.vol_manual=parseFloat(document.getElementById('d_vol').value)||0;
+  a.dimSource=S.dimSource||'lah';
+  a.vol=S.vol;a.aT=S.aT;a.aC=S.aC;
+  a.ren_val=document.getElementById('ren').value;
+  a.pE=S.pE;
+  a.qi={};allEqs().forEach(e=>{a.qi[e.id]=S.qi[e.id]||0;});
+  a.qe={};EXT_BASE.forEach(e=>{a.qe[e.id]=S.qe[e.id]||0;});
+}
+function loadAmbState(idx){
+  const a=S.ambientes[idx];if(!a)return;
+  S.ambActivo=idx;
+  document.getElementById('d_l').value=a.d_l||'';
+  document.getElementById('d_a').value=a.d_a||'';
+  document.getElementById('d_at').value=a.d_at||'';
+  document.getElementById('d_ac').value=a.d_ac||'';
+  const supEl=document.getElementById('d_sup');if(supEl)supEl.value=a.sup>0?a.sup:'';
+  const volEl=document.getElementById('d_vol');if(volEl)volEl.value=a.vol>0?a.vol:'';
+  S.dimSource=a.dimSource||'lah';
+  S.vol=a.vol||0;S.aT=a.aT||0;S.aC=a.aC||0;
+  S.pE=a.pE!=null?a.pE:60;
+  document.getElementById('pct_e').value=S.pE;
+  const pctNum=document.getElementById('pct_e_num');if(pctNum)pctNum.value=S.pE;
+  document.getElementById('rc_p').textContent=S.pE;
+  document.getElementById('st_ep').textContent=S.pE;
+  document.getElementById('ren').value=a.ren_val||'';
+  document.querySelectorAll('.tc').forEach(c=>c.classList.remove('sel'));
+  allEqs().forEach(e=>{S.qi[e.id]=(a.qi&&a.qi[e.id])||0;const el=document.getElementById('qi_'+e.id);if(el)el.value=S.qi[e.id];});
+  EXT_BASE.forEach(e=>{S.qe[e.id]=(a.qe&&a.qe[e.id])||0;const el=document.getElementById('qe_'+e.id);if(el)el.value=S.qe[e.id];});
+  S.ren=parseFloat(a.ren_val)||0;
+  calcCaudal();updEstados();updSugs();
+}
+function switchAmb(idx){
+  if(idx===S.ambActivo)return;
+  saveAmbState();loadAmbState(idx);renderAmbTabs();
+}
+function addAmb(){
+  saveAmbState();
+  const a=defaultAmb();a.nombre='Ambiente '+(S.ambientes.length+1);
+  S.ambientes.push(a);
+  const newIdx=S.ambientes.length-1;
+  // reset equipment display for new ambiente
+  allEqs().forEach(e=>{S.qi[e.id]=0;const el=document.getElementById('qi_'+e.id);if(el)el.value=0;});
+  EXT_BASE.forEach(e=>{S.qe[e.id]=0;const el=document.getElementById('qe_'+e.id);if(el)el.value=0;});
+  // reset dims display
+  ['d_l','d_a','d_at','d_ac','d_sup','d_vol','ren'].forEach(id=>{const el=document.getElementById(id);if(el)el.value='';});
+  S.vol=0;S.aT=0;S.aC=0;S.ren=0;S.dimSource='lah';
+  S.ambActivo=newIdx;S.ambientes[newIdx].pE=60;
+  document.getElementById('pct_e').value=60;const pn=document.getElementById('pct_e_num');if(pn)pn.value=60;S.pE=60;
+  document.getElementById('rc_p').textContent=60;document.getElementById('st_ep').textContent=60;
+  document.querySelectorAll('.tc').forEach(c=>c.classList.remove('sel'));
+  calcCaudal();renderAmbTabs();showToast('✅ Ambiente '+(newIdx+1)+' agregado');
+}
+function delAmb(idx){
+  if(typeof idx==='undefined')idx=S.ambActivo;
+  if(S.ambientes.length<=1){showToast('⚠ No podés eliminar el único ambiente');return;}
+  const nom=S.ambientes[idx].nombre||'Ambiente '+(idx+1);
+  if(!confirm('¿Eliminar "'+nom+'"?'))return;
+  saveAmbState();
+  S.ambientes.splice(idx,1);
+  const newIdx=Math.max(0,Math.min(S.ambActivo,S.ambientes.length-1));
+  loadAmbState(newIdx);renderAmbTabs();showToast('🗑 Ambiente eliminado');
+}
+function renameCurrentAmb(){
+  const nom=document.getElementById('amb_nombre').value;
+  S.ambientes[S.ambActivo].nombre=nom;
+  renderAmbTabs();
 }
 
 // ====== TIPOS ======
@@ -907,21 +1058,47 @@ function selTipo(el,a,b,cx){
 }
 
 // ====== DIM ======
-function calcDim(){
+function calcDim(src){
   const l=parseFloat(document.getElementById('d_l').value)||0;
   const a=parseFloat(document.getElementById('d_a').value)||0;
   const at=parseFloat(document.getElementById('d_at').value)||0;
   let ac=parseFloat(document.getElementById('d_ac').value)||0;
   if(!ac)ac=at;
-  S.aT=at;S.aC=ac;S.vol=l*a*ac;
-  document.getElementById('vol_v').textContent=S.vol>0?S.vol.toLocaleString('es-AR')+' m³':'— m³';
+  S.aT=at;S.aC=ac;
+  if(!src)src=S.dimSource||'lah';
+  const supEl=document.getElementById('d_sup');
+  const volEl=document.getElementById('d_vol');
+  if(src==='lah'){
+    S.dimSource='lah';
+    S.vol=l*a*ac;
+    const sup=l*a;
+    if(supEl&&document.activeElement!==supEl)supEl.value=sup>0?+sup.toFixed(4):'';
+    if(volEl&&document.activeElement!==volEl)volEl.value=S.vol>0?+S.vol.toFixed(4):'';
+  }else if(src==='sup'){
+    S.dimSource='sup';
+    const sup=parseFloat(supEl.value)||0;
+    S.vol=sup*ac;
+    if(volEl&&document.activeElement!==volEl)volEl.value=S.vol>0?+S.vol.toFixed(4):'';
+  }else if(src==='vol'){
+    S.dimSource='vol';
+    S.vol=parseFloat(volEl.value)||0;
+    if(ac>0&&supEl&&document.activeElement!==supEl)supEl.value=S.vol>0?+(S.vol/ac).toFixed(4):'';
+  }
   calcCaudal();
 }
 function updExtPct(){
-  S.pE=parseInt(document.getElementById('pct_e').value);
-  document.getElementById('pct_e_v').textContent=S.pE+'%';
+  S.pE=parseInt(document.getElementById('pct_e').value)||0;
+  const pctNum=document.getElementById('pct_e_num');if(pctNum&&document.activeElement!==pctNum)pctNum.value=S.pE;
   document.getElementById('rc_p').textContent=S.pE;
   document.getElementById('st_ep').textContent=S.pE;
+  calcCaudal();updEstados();
+}
+function updExtPctNum(){
+  const v=Math.min(100,Math.max(0,parseInt(document.getElementById('pct_e_num').value)||0));
+  document.getElementById('pct_e').value=v;
+  S.pE=v;
+  document.getElementById('rc_p').textContent=v;
+  document.getElementById('st_ep').textContent=v;
   calcCaudal();updEstados();
 }
 function calcCaudal(){
@@ -1036,7 +1213,7 @@ function updEstados(){
   const ti=totalIny(),ri=S.vol*S.ren;
   document.getElementById('st_ii').textContent=fn(ti)+' m³/h';
   document.getElementById('st_ir').textContent=ri?fn(ri)+' m³/h':'— m³/h';
-  if(ri)document.getElementById('st_io').innerHTML=ti>=ri?'<span style="color:#8BBF2E">✔ Correcto</span>':'<span style="color:#e74c3c">✘ Insuficiente</span>';
+  if(ri)document.getElementById('st_io').innerHTML=ti>=ri?'<span style="color:#2563EB">✔ Correcto</span>':'<span style="color:#e74c3c">✘ Insuficiente</span>';
 
   const te=totalExt(),re=extReq();
   document.getElementById('st_ei').textContent=fn(te)+' m³/h';
@@ -1092,15 +1269,18 @@ function getDescMonto(ventaTotal){
   return monto;
 }
 function calcEco(){
+  saveAmbState();
   S.pCom=parseFloat(document.getElementById('pct_com').value)||0;
   const moIny=document.getElementById('op_mo_iny').checked;
   const moExt=document.getElementById('op_mo_ext').checked;
   const moIV=moInyVal(), moEV=moExtVal();
 
   let ceq=0,veq=0,qI=0;
-  allEqs().forEach(e=>{const q=S.qi[e.id]||0;if(q>0){ceq+=q*getP(e.id,'c');veq+=q*getP(e.id,'p');qI+=q;}});
   let cext=0,vext=0,qE=0;
-  EXT_BASE.forEach(e=>{const q=S.qe[e.id]||0;if(q>0){cext+=q*getP(e.id,'c');vext+=q*getP(e.id,'p');qE+=q;}});
+  S.ambientes.forEach(amb=>{
+    allEqs().forEach(e=>{const q=amb.qi[e.id]||0;if(q>0){ceq+=q*getP(e.id,'c');veq+=q*getP(e.id,'p');qI+=q;}});
+    EXT_BASE.forEach(e=>{const q=amb.qe[e.id]||0;if(q>0){cext+=q*getP(e.id,'c');vext+=q*getP(e.id,'p');qE+=q;}});
+  });
   // Portátiles en proyecto
   let cpt=0,vpt=0,qPT=0;
   EQI_BASE.po.forEach(e=>{const q=S.qpt_proj[e.id]||0;if(q>0){cpt+=q*(PROJ_PT_PRICES[e.id]?.c||e.c);vpt+=q*(PROJ_PT_PRICES[e.id]?.p||e.p);qPT+=q;}});
@@ -1128,17 +1308,21 @@ function calcEco(){
   if(S.com)document.getElementById('ri_com').textContent=f(com);
   if(S.desc)document.getElementById('ri_desc').textContent=f(descMonto);
 
+  // Merged quantities across all ambientes for detail table
+  const mQi={},mQe={};
+  S.ambientes.forEach(amb=>{allEqs().forEach(e=>{mQi[e.id]=(mQi[e.id]||0)+(amb.qi[e.id]||0);});EXT_BASE.forEach(e=>{mQe[e.id]=(mQe[e.id]||0)+(amb.qe[e.id]||0);});});
+
   let rows='';
   rows+=`<tr class="sec"><td colspan="6">EQUIPOS DE INYECCIÓN</td></tr>`;
   allEqs().forEach(e=>{
-    const q=S.qi[e.id]||0;
+    const q=mQi[e.id]||0;
     if(q>0){
       const pc=getP(e.id,'c'),pp=getP(e.id,'p');
       rows+=`<tr>
         <td style="font-weight:600;">${e.n} <span style="color:#bbb;font-weight:400;">${e.t}</span></td>
         <td style="text-align:center;">${q}</td>
         <td style="text-align:right;color:#aaa;">USD ${fn(pc)}</td>
-        <td style="text-align:right;color:#8BBF2E;font-weight:700;">USD ${fn(pp)}</td>
+        <td style="text-align:right;color:#2563EB;font-weight:700;">USD ${fn(pp)}</td>
         <td style="text-align:right;">USD ${fn(q*pc)}</td>
         <td style="text-align:right;font-weight:700;">USD ${fn(q*pp)}</td>
       </tr>`;
@@ -1146,14 +1330,14 @@ function calcEco(){
   });
   rows+=`<tr class="sec"><td colspan="6">EQUIPOS DE EXTRACCIÓN</td></tr>`;
   EXT_BASE.forEach(e=>{
-    const q=S.qe[e.id]||0;
+    const q=mQe[e.id]||0;
     if(q>0){
       const pc=getP(e.id,'c'),pp=getP(e.id,'p');
       rows+=`<tr>
         <td style="font-weight:600;">${e.n} <span style="color:#bbb;font-weight:400;">${e.t}</span></td>
         <td style="text-align:center;">${q}</td>
         <td style="text-align:right;color:#aaa;">USD ${fn(pc)}</td>
-        <td style="text-align:right;color:#8BBF2E;font-weight:700;">USD ${fn(pp)}</td>
+        <td style="text-align:right;color:#2563EB;font-weight:700;">USD ${fn(pp)}</td>
         <td style="text-align:right;">USD ${fn(q*pc)}</td>
         <td style="text-align:right;font-weight:700;">USD ${fn(q*pp)}</td>
       </tr>`;
@@ -1167,12 +1351,12 @@ function calcEco(){
       const q=S.qpt_proj[e.id];
       const pc=PROJ_PT_PRICES[e.id]?.c||e.c;
       const pp=PROJ_PT_PRICES[e.id]?.p||e.p;
-      rows+=`<tr><td style="font-weight:600;">${e.n} <span style="color:#bbb;font-weight:400;">${e.t}</span></td><td style="text-align:center;">${q}</td><td style="text-align:right;color:#aaa;">USD ${fn(pc)}</td><td style="text-align:right;color:#8BBF2E;font-weight:700;">USD ${fn(pp)}</td><td style="text-align:right;">USD ${fn(q*pc)}</td><td style="text-align:right;font-weight:700;">USD ${fn(q*pp)}</td></tr>`;
+      rows+=`<tr><td style="font-weight:600;">${e.n} <span style="color:#bbb;font-weight:400;">${e.t}</span></td><td style="text-align:center;">${q}</td><td style="text-align:right;color:#aaa;">USD ${fn(pc)}</td><td style="text-align:right;color:#2563EB;font-weight:700;">USD ${fn(pp)}</td><td style="text-align:right;">USD ${fn(q*pc)}</td><td style="text-align:right;font-weight:700;">USD ${fn(q*pp)}</td></tr>`;
     });
   }
   rows+=`<tr class="sec"><td colspan="6">MANO DE OBRA</td></tr>`;
-  if(qI>0&&moIny)rows+=`<tr><td style="font-weight:600;">Instalación Equipo Inyector - M.O.</td><td style="text-align:center;">${qI}</td><td style="text-align:right;color:#aaa;">USD ${fn(moIV)}</td><td style="text-align:right;color:#8BBF2E;font-weight:700;">USD ${fn(moIV)}</td><td style="text-align:right;">USD ${fn(qI*moIV)}</td><td style="text-align:right;font-weight:700;">USD ${fn(qI*moIV)}</td></tr>`;
-  if(qE>0&&moExt)rows+=`<tr><td style="font-weight:600;">Instalación Extractor - M.O.</td><td style="text-align:center;">${qE}</td><td style="text-align:right;color:#aaa;">USD ${fn(moEV)}</td><td style="text-align:right;color:#8BBF2E;font-weight:700;">USD ${fn(moEV)}</td><td style="text-align:right;">USD ${fn(qE*moEV)}</td><td style="text-align:right;font-weight:700;">USD ${fn(qE*moEV)}</td></tr>`;
+  if(qI>0&&moIny)rows+=`<tr><td style="font-weight:600;">Instalación Equipo Inyector - M.O.</td><td style="text-align:center;">${qI}</td><td style="text-align:right;color:#aaa;">USD ${fn(moIV)}</td><td style="text-align:right;color:#2563EB;font-weight:700;">USD ${fn(moIV)}</td><td style="text-align:right;">USD ${fn(qI*moIV)}</td><td style="text-align:right;font-weight:700;">USD ${fn(qI*moIV)}</td></tr>`;
+  if(qE>0&&moExt)rows+=`<tr><td style="font-weight:600;">Instalación Extractor - M.O.</td><td style="text-align:center;">${qE}</td><td style="text-align:right;color:#aaa;">USD ${fn(moEV)}</td><td style="text-align:right;color:#2563EB;font-weight:700;">USD ${fn(moEV)}</td><td style="text-align:right;">USD ${fn(qE*moEV)}</td><td style="text-align:right;font-weight:700;">USD ${fn(qE*moEV)}</td></tr>`;
   if(!moIny&&qI>0)rows+=`<tr><td colspan="6" style="color:#bbb;font-style:italic;font-size:10px;">M.O. de inyectores no incluida en este presupuesto</td></tr>`;
   if(!moExt&&qE>0)rows+=`<tr><td colspan="6" style="color:#bbb;font-style:italic;font-size:10px;">M.O. de extractores no incluida en este presupuesto</td></tr>`;
   // DESCUENTO: resta precio al cliente → aparece en tabla de detalle
@@ -1186,10 +1370,10 @@ function calcEco(){
   rows+=`<tr class="tot"><td colspan="4">TOTAL NETO</td><td style="text-align:right;">USD ${fn(ctot)}</td><td style="text-align:right;">USD ${fn(vNeta)}</td></tr>`;
   document.getElementById('dt_body').innerHTML=rows;
 
-  // kWh totals
+  // kWh totals (aggregated across all ambientes)
   let kwhIny=0,kwhExt=0;
-  allEqs().forEach(e=>{const q=S.qi[e.id]||0;if(q>0)kwhIny+=q*(e.kw||0);});
-  EXT_BASE.forEach(e=>{const q=S.qe[e.id]||0;if(q>0)kwhExt+=q*(e.kw||0);});
+  allEqs().forEach(e=>{const q=mQi[e.id]||0;if(q>0)kwhIny+=q*(e.kw||0);});
+  EXT_BASE.forEach(e=>{const q=mQe[e.id]||0;if(q>0)kwhExt+=q*(e.kw||0);});
   const kwhTot=kwhIny+kwhExt;
   document.getElementById('kwh_iny').textContent=kwhIny.toFixed(2)+' kWh';
   document.getElementById('kwh_ext').textContent=kwhExt.toFixed(2)+' kWh';
@@ -1237,14 +1421,16 @@ function renderPpto(){
   const moExt=document.getElementById('op_mo_ext').checked;
   const moIV=moInyVal(), moEV=moExtVal();
 
-  const dl=document.getElementById('d_l').value||'—';
-  const da=document.getElementById('d_a').value||'—';
-  const dat=document.getElementById('d_at').value||'—';
-  const dac=document.getElementById('d_ac').value||dat;
+  // Save current ambiente state before rendering
+  saveAmbState();
+
+  // Aggregate equipment across all ambientes
+  const rQi={},rQe={};
+  S.ambientes.forEach(amb=>{allEqs().forEach(e=>{rQi[e.id]=(rQi[e.id]||0)+(amb.qi[e.id]||0);});EXT_BASE.forEach(e=>{rQe[e.id]=(rQe[e.id]||0)+(amb.qe[e.id]||0);});});
 
   let qI=0,qE=0,veq=0,vext=0;
-  allEqs().forEach(e=>{const q=S.qi[e.id]||0;if(q>0){veq+=q*getP(e.id,'p');qI+=q;}});
-  EXT_BASE.forEach(e=>{const q=S.qe[e.id]||0;if(q>0){vext+=q*getP(e.id,'p');qE+=q;}});
+  allEqs().forEach(e=>{const q=rQi[e.id]||0;if(q>0){veq+=q*getP(e.id,'p');qI+=q;}});
+  EXT_BASE.forEach(e=>{const q=rQe[e.id]||0;if(q>0){vext+=q*getP(e.id,'p');qE+=q;}});
   const cMoI=moIny?qI*moIV:0, cMoE=moExt?qE*moEV:0;
   // Descuento afecta precio de venta (aparece en ppto)
   const vtotBruto=veq+vext+cMoI+cMoE;
@@ -1283,30 +1469,46 @@ function renderPpto(){
   // ANÁLISIS TÉCNICO
   const opAcl=document.getElementById('op_acl').checked;
   const aclTexto=(document.getElementById('acl_texto').value||'').trim();
-  if(opT&&S.vol>0){
-    const altNota=(dac&&dac!=dat)?` Altura de cálculo adoptada: <strong>${dac} m</strong> sobre altura total de ${dat} m.`:'';
+  const ambsConVol=S.ambientes.filter(a=>a.vol>0);
+  if(opT&&ambsConVol.length>0){
     h+=`<div class="pp-sec">Análisis del Espacio y Propuesta Técnica</div>`;
-    if(opAcl&&aclTexto){
-      const aclHtml=aclTexto.split('\n').join('<br>');
-      h+=`<p style="font-size:12px;color:#444;line-height:1.8;margin-bottom:12px;font-style:italic;">${aclHtml}</p>`;
-    }
-    h+=`<table class="pp-esp">
-      <thead><tr><th colspan="8">${nom} — Sector a Climatizar</th></tr></thead>
-      <tbody>
-        <tr><td class="hc">Largo</td><td>${dl} m</td><td class="hc">Ancho</td><td>${da} m</td><td class="hc">Altura Total</td><td>${dat} m</td><td class="hc">Volumen</td><td><strong>${fn(S.vol)} m³</strong></td></tr>
-        <tr><td class="hc">Renovaciones</td><td>${S.ren} r/h</td><td class="hc">Altura Cálculo</td><td><strong>${dac} m</strong></td><td class="hc">Caudal Diseño</td><td colspan="3"><strong>${fn(S.vol*S.ren)} m³/h</strong></td></tr>
-      </tbody>
-    </table>
-    <table class="pp-esp">
-      <thead><tr><th colspan="4">Caudales de Diseño</th><th colspan="4">Capacidad Instalada</th></tr></thead>
-      <tbody><tr>
-        <td class="hc">Iny. requerida</td><td><strong>${fn(S.vol*S.ren)} m³/h</strong></td>
-        <td class="hc">Ext. (${S.pE}% inst.)</td><td><strong>${fn(extReq())} m³/h</strong></td>
-        <td class="hc">Iny. instalada</td><td><strong>${fn(totalIny())} m³/h</strong></td>
-        <td class="hc">Ext. instalada</td><td><strong>${fn(totalExt())} m³/h</strong></td>
-      </tr></tbody>
-    </table>
-    ${altNota?`<p style="font-size:10px;color:#999;font-style:italic;margin-top:4px;">${altNota}</p>`:''}`;
+    if(opAcl&&aclTexto){h+=`<p style="font-size:12px;color:#444;line-height:1.8;margin-bottom:12px;font-style:italic;">${aclTexto.split('\n').join('<br>')}</p>`;}
+    ambsConVol.forEach((a,ai)=>{
+      const ambNom=a.nombre||'Ambiente '+(ai+1);
+      const adl=a.d_l||'—',ada=a.d_a||'—',adat=a.d_at||'—';
+      const adac=a.d_ac||adat;
+      const aRen=parseFloat(a.ren_val)||0;
+      const aTiI=allEqs().reduce((s,e)=>s+(a.qi[e.id]||0)*e.q,0);
+      const aTiE=EXT_BASE.reduce((s,e)=>s+(a.qe[e.id]||0)*e.q,0);
+      const aExtReq=aTiI*a.pE/100;
+      const altNota=(a.d_ac&&a.d_ac!=a.d_at&&a.d_at)?` Altura de cálculo adoptada: <strong>${adac} m</strong> sobre altura total de ${adat} m.`:'';
+      // Mostrar dimensiones según el origen del dato
+      let dimRow='';
+      if(a.dimSource==='vol'){
+        dimRow=`<tr><td class="hc">Volumen</td><td colspan="7"><strong>${fn(a.vol)} m³</strong></td></tr>`;
+      }else if(a.dimSource==='sup'){
+        dimRow=`<tr><td class="hc">Superficie</td><td>${a.sup>0?fn(a.sup)+' m²':'—'}</td><td class="hc">Altura Cálculo</td><td><strong>${adac} m</strong></td><td class="hc">Volumen</td><td colspan="3"><strong>${fn(a.vol)} m³</strong></td></tr>`;
+      }else{
+        dimRow=`<tr><td class="hc">Largo</td><td>${adl} m</td><td class="hc">Ancho</td><td>${ada} m</td><td class="hc">Altura Total</td><td>${adat} m</td><td class="hc">Volumen</td><td><strong>${fn(a.vol)} m³</strong></td></tr>`;
+      }
+      h+=`<table class="pp-esp">
+        <thead><tr><th colspan="8">${nom} — ${ambNom}</th></tr></thead>
+        <tbody>
+          ${dimRow}
+          <tr><td class="hc">Renovaciones</td><td>${aRen} r/h</td><td class="hc">Altura Cálculo</td><td><strong>${adac} m</strong></td><td class="hc">Caudal Diseño</td><td colspan="3"><strong>${fn(a.vol*aRen)} m³/h</strong></td></tr>
+        </tbody>
+      </table>
+      <table class="pp-esp" style="margin-bottom:${ai<ambsConVol.length-1?'14':'0'}px;">
+        <thead><tr><th colspan="4">Caudales de Diseño</th><th colspan="4">Capacidad Instalada</th></tr></thead>
+        <tbody><tr>
+          <td class="hc">Iny. requerida</td><td><strong>${fn(a.vol*aRen)} m³/h</strong></td>
+          <td class="hc">Ext. (${a.pE}% inst.)</td><td><strong>${fn(aExtReq)} m³/h</strong></td>
+          <td class="hc">Iny. instalada</td><td><strong>${fn(aTiI)} m³/h</strong></td>
+          <td class="hc">Ext. instalada</td><td><strong>${fn(aTiE)} m³/h</strong></td>
+        </tr></tbody>
+      </table>
+      ${altNota?`<p style="font-size:10px;color:#999;font-style:italic;margin-top:4px;margin-bottom:10px;">${altNota}</p>`:''}`;
+    });
 
   // Consumo kWh en presupuesto
   if(S.kwhTot>0){
@@ -1314,16 +1516,16 @@ function renderPpto(){
     h+=`<div class="pp-kwh-grid">
       <div class="pp-kwh-card"><div class="pkl">Consumo Inyección</div><div class="pkv">${(S.kwhIny||0).toFixed(2)} kWh</div></div>
       <div class="pp-kwh-card"><div class="pkl">Consumo Extracción</div><div class="pkv">${(S.kwhExt||0).toFixed(2)} kWh</div></div>
-      <div class="pp-kwh-card" style="border-color:var(--v);background:#f0f7e0;"><div class="pkl">Consumo Total</div><div class="pkv" style="color:var(--v);">${(S.kwhTot||0).toFixed(2)} kWh</div></div>
+      <div class="pp-kwh-card" style="border-color:var(--v);background:#EFF6FF;"><div class="pkl">Consumo Total</div><div class="pkv" style="color:var(--v);">${(S.kwhTot||0).toFixed(2)} kWh</div></div>
     </div>`;
   }
   }
 
   // FICHAS
   if(opF){
-    const fi=allEqs().filter(e=>(S.qi[e.id]||0)>0);
-    const fe=EXT_BASE.filter(e=>(S.qe[e.id]||0)>0);
-    const todas=[...fi.map(e=>({...e,qty:S.qi[e.id],tp:'iny'})),...fe.map(e=>({...e,qty:S.qe[e.id],tp:'ext'}))];
+    const fi=allEqs().filter(e=>(rQi[e.id]||0)>0);
+    const fe=EXT_BASE.filter(e=>(rQe[e.id]||0)>0);
+    const todas=[...fi.map(e=>({...e,qty:rQi[e.id],tp:'iny'})),...fe.map(e=>({...e,qty:rQe[e.id],tp:'ext'}))];
     if(todas.length>0){
       // Wrap title + first 2 fichas in anchor to keep title with content
       h+=`<div class="fichas-section">`;
@@ -1402,8 +1604,8 @@ function renderPpto(){
   // TABLA PRESUPUESTO
   h+=`<div class="pp-sec">Detalle del Presupuesto</div>`;
   h+=`<table class="pp-tabla"><thead><tr><th>Producto / Servicio</th><th style="text-align:center;width:55px;">Cant.</th><th style="text-align:right;width:115px;">Precio Unit.</th><th style="text-align:right;width:115px;">Subtotal</th></tr></thead><tbody>`;
-  allEqs().forEach(e=>{const q=S.qi[e.id]||0;if(q>0){const pp=getP(e.id,'p');const s=q*pp;h+=`<tr><td>${e.n} ${e.t}</td><td style="text-align:center;">${q}</td><td style="text-align:right;">USD ${fn(pp)}</td><td style="text-align:right;">USD ${fn(s)}</td></tr>`;}});
-  EXT_BASE.forEach(e=>{const q=S.qe[e.id]||0;if(q>0){const pp=getP(e.id,'p');const s=q*pp;h+=`<tr><td>${e.n} ${e.t}</td><td style="text-align:center;">${q}</td><td style="text-align:right;">USD ${fn(pp)}</td><td style="text-align:right;">USD ${fn(s)}</td></tr>`;}});
+  allEqs().forEach(e=>{const q=rQi[e.id]||0;if(q>0){const pp=getP(e.id,'p');const s=q*pp;h+=`<tr><td>${e.n} ${e.t}</td><td style="text-align:center;">${q}</td><td style="text-align:right;">USD ${fn(pp)}</td><td style="text-align:right;">USD ${fn(s)}</td></tr>`;}});
+  EXT_BASE.forEach(e=>{const q=rQe[e.id]||0;if(q>0){const pp=getP(e.id,'p');const s=q*pp;h+=`<tr><td>${e.n} ${e.t}</td><td style="text-align:center;">${q}</td><td style="text-align:right;">USD ${fn(pp)}</td><td style="text-align:right;">USD ${fn(s)}</td></tr>`;}});
   EQI_BASE.po.forEach(e=>{const q=S.qpt_proj[e.id]||0;if(q>0){const pp=PROJ_PT_PRICES[e.id]?.p||e.p;const s=q*pp;h+=`<tr><td>${e.n} ${e.t}</td><td style="text-align:center;">${q}</td><td style="text-align:right;">USD ${fn(pp)}</td><td style="text-align:right;">USD ${fn(s)}</td></tr>`;}});
   if(qI>0&&moIny){const s=qI*moIV;h+=`<tr><td>Instalación Equipo Inyector - Mano de Obra Básica</td><td style="text-align:center;">${qI}</td><td style="text-align:right;">USD ${fn(moIV)}</td><td style="text-align:right;">USD ${fn(s)}</td></tr>`;}
   if(qE>0&&moExt){const s=qE*moEV;h+=`<tr><td>Instalación Extractor - Mano de Obra Básica</td><td style="text-align:center;">${qE}</td><td style="text-align:right;">USD ${fn(moEV)}</td><td style="text-align:right;">USD ${fn(s)}</td></tr>`;}
@@ -1596,27 +1798,27 @@ function openPrintWindow(content){
     /* Content styles */
     .pp-enc,.pp-footer{ display:none!important; }
     :root{
-      --v:#8BBF2E;--n:#1a1a1a;--r:#e74c3c;--am:#F5C400;
+      --v:#2563EB;--n:#0D1B2E;--r:#e74c3c;--am:#F5C400;
     }
-    .pp-sec{font-size:10px;font-weight:700;text-transform:uppercase;letter-spacing:1px;color:#1a1a1a;border-left:4px solid #8BBF2E;padding-left:9px;margin:14px 0 8px;page-break-after:avoid;break-after:avoid;}
-    .pp-tit{font-size:20px;font-weight:900;text-transform:uppercase;letter-spacing:2px;color:#1a1a1a;border-bottom:3px solid #1a1a1a;padding-bottom:6px;margin-bottom:10px;}
+    .pp-sec{font-size:10px;font-weight:700;text-transform:uppercase;letter-spacing:1px;color:#0D1B2E;border-left:4px solid #2563EB;padding-left:9px;margin:14px 0 8px;page-break-after:avoid;break-after:avoid;}
+    .pp-tit{font-size:20px;font-weight:900;text-transform:uppercase;letter-spacing:2px;color:#0D1B2E;border-bottom:3px solid #0D1B2E;padding-bottom:6px;margin-bottom:10px;}
     .pp-dest{font-size:13px;font-weight:700;margin-bottom:12px;}
     .pp-fecha{text-align:right;font-size:11px;color:#999;margin-bottom:6px;}
     .pp-intro{font-size:12px;line-height:1.8;color:#333;margin-bottom:10px;}
-    .pp-intro-dest{background:#f0f7e0;border-left:4px solid #8BBF2E;padding:10px 14px;font-size:11px;font-style:italic;color:#333;margin-bottom:12px;line-height:1.7;}
+    .pp-intro-dest{background:#EFF6FF;border-left:4px solid #2563EB;padding:10px 14px;font-size:11px;font-style:italic;color:#333;margin-bottom:12px;line-height:1.7;}
     .pp-esp{width:100%;border-collapse:collapse;font-size:11px;margin-bottom:10px;-webkit-print-color-adjust:exact;print-color-adjust:exact;}
-    .pp-esp th{background:#1a1a1a;color:#fff;padding:6px 10px;font-size:10px;text-transform:uppercase;letter-spacing:.5px;font-weight:700;-webkit-print-color-adjust:exact;print-color-adjust:exact;}
+    .pp-esp th{background:#0D1B2E;color:#fff;padding:6px 10px;font-size:10px;text-transform:uppercase;letter-spacing:.5px;font-weight:700;-webkit-print-color-adjust:exact;print-color-adjust:exact;}
     .pp-esp td{padding:6px 10px;border:1px solid #e5e5e5;text-align:center;font-weight:600;}
-    .pp-esp td.hc{background:#f0f7e0;font-weight:700;font-size:10px;color:#1a1a1a;-webkit-print-color-adjust:exact;print-color-adjust:exact;}
+    .pp-esp td.hc{background:#EFF6FF;font-weight:700;font-size:10px;color:#0D1B2E;-webkit-print-color-adjust:exact;print-color-adjust:exact;}
     .pp-kwh-grid{display:grid;grid-template-columns:1fr 1fr 1fr;gap:8px;margin-bottom:12px;}
     .pp-kwh-card{background:#f5f5f5;border:1px solid #e5e5e5;border-radius:5px;padding:8px 10px;-webkit-print-color-adjust:exact;print-color-adjust:exact;}
     .pp-kwh-card .pkl{font-size:9px;font-weight:700;text-transform:uppercase;color:#aaa;margin-bottom:2px;}
-    .pp-kwh-card .pkv{font-size:14px;font-weight:800;color:#1a1a1a;}
+    .pp-kwh-card .pkv{font-size:14px;font-weight:800;color:#0D1B2E;}
     .fichas-section{page-break-inside:auto;break-inside:auto;}
     .fichas-title-anchor{page-break-inside:avoid;break-inside:avoid;page-break-after:avoid;break-after:avoid;}
     .fg-fichas{display:grid;grid-template-columns:1fr 1fr;gap:12px;margin-bottom:14px;-webkit-print-color-adjust:exact;print-color-adjust:exact;}
     .ficha{border:1px solid #e5e5e5;border-radius:7px;overflow:hidden;page-break-inside:avoid;break-inside:avoid;}
-    .fh{background:#1a1a1a;padding:7px 12px;-webkit-print-color-adjust:exact;print-color-adjust:exact;}
+    .fh{background:#0D1B2E;padding:7px 12px;-webkit-print-color-adjust:exact;print-color-adjust:exact;}
     .fh h4{font-size:12px;font-weight:700;color:#fff;text-transform:uppercase;}
     .fh small{font-size:9px;color:#aaa;}
     .fb{display:flex;}
@@ -1626,34 +1828,34 @@ function openPrintWindow(content){
     .fs table{width:100%;border-collapse:collapse;}
     .fs td{padding:3px;border-bottom:1px solid #f5f5f5;}
     .fs td:first-child{color:#aaa;font-weight:600;width:50%;}
-    .fs td:last-child{font-weight:700;color:#1a1a1a;}
-    .fq{background:#8BBF2E;color:#1a1a1a;font-size:11px;font-weight:800;padding:3px 8px;border-radius:3px;margin-top:7px;display:inline-block;-webkit-print-color-adjust:exact;print-color-adjust:exact;}
+    .fs td:last-child{font-weight:700;color:#0D1B2E;}
+    .fq{background:#2563EB;color:#0D1B2E;font-size:11px;font-weight:800;padding:3px 8px;border-radius:3px;margin-top:7px;display:inline-block;-webkit-print-color-adjust:exact;print-color-adjust:exact;}
     .esq-img{width:100%;max-height:280px;object-fit:contain;border:1px solid #ddd;border-radius:6px;}
-    .pp-conc{background:#f9f9f9;border-left:4px solid #1a1a1a;padding:11px 15px;font-size:11px;color:#333;line-height:1.8;margin-bottom:14px;page-break-inside:avoid;break-inside:avoid;}
+    .pp-conc{background:#f9f9f9;border-left:4px solid #0D1B2E;padding:11px 15px;font-size:11px;color:#333;line-height:1.8;margin-bottom:14px;page-break-inside:avoid;break-inside:avoid;}
     .pp-eco-analisis{margin-bottom:14px;page-break-inside:avoid;break-inside:avoid;}
     .pp-tabla{width:100%;border-collapse:collapse;font-size:12px;margin-bottom:8px;-webkit-print-color-adjust:exact;print-color-adjust:exact;}
-    .pp-tabla th{background:#1a1a1a;color:#fff;padding:8px 12px;text-align:left;font-size:11px;text-transform:uppercase;letter-spacing:.5px;font-weight:700;-webkit-print-color-adjust:exact;print-color-adjust:exact;}
+    .pp-tabla th{background:#0D1B2E;color:#fff;padding:8px 12px;text-align:left;font-size:11px;text-transform:uppercase;letter-spacing:.5px;font-weight:700;-webkit-print-color-adjust:exact;print-color-adjust:exact;}
     .pp-tabla td{padding:8px 12px;border-bottom:1px solid #eee;}
-    .pp-tabla tr.tot td{background:#1a1a1a;color:#fff;font-weight:800;font-size:13px;border:none;-webkit-print-color-adjust:exact;print-color-adjust:exact;}
+    .pp-tabla tr.tot td{background:#0D1B2E;color:#fff;font-weight:800;font-size:13px;border:none;-webkit-print-color-adjust:exact;print-color-adjust:exact;}
     .pp-nota{font-size:10px;color:#999;font-style:italic;margin:6px 0 14px;}
     .pp-conds{display:grid;grid-template-columns:1fr 1fr;gap:14px;margin-top:14px;}
-    .pp-cond h4{font-size:10px;font-weight:700;text-transform:uppercase;letter-spacing:.5px;color:#1a1a1a;margin-bottom:5px;border-bottom:1.5px solid #1a1a1a;padding-bottom:3px;}
+    .pp-cond h4{font-size:10px;font-weight:700;text-transform:uppercase;letter-spacing:.5px;color:#0D1B2E;margin-bottom:5px;border-bottom:1.5px solid #0D1B2E;padding-bottom:3px;}
     .pp-cond p,.pp-cond li{color:#555;font-size:11px;line-height:1.7;}
     .pp-cond ul{padding-left:13px;}
     .pp-eco-tabla{width:100%;border-collapse:collapse;font-size:11px;}
-    .pp-eco-tabla th{background:#1a1a1a;color:#fff;padding:6px 10px;font-size:10px;text-transform:uppercase;letter-spacing:.5px;font-weight:700;-webkit-print-color-adjust:exact;print-color-adjust:exact;}
+    .pp-eco-tabla th{background:#0D1B2E;color:#fff;padding:6px 10px;font-size:10px;text-transform:uppercase;letter-spacing:.5px;font-weight:700;-webkit-print-color-adjust:exact;print-color-adjust:exact;}
     .pp-eco-tabla td{padding:6px 10px;border-bottom:1px solid #eee;}
     .pp-eco-indicadores{display:grid;grid-template-columns:1fr 1fr;gap:8px;margin-top:10px;}
     .pp-eco-ind{background:#f5f5f5;border:1px solid #e5e5e5;border-radius:5px;padding:8px 12px;}
     .pp-eco-ind .peil{font-size:9px;font-weight:700;text-transform:uppercase;color:#aaa;margin-bottom:2px;}
-    .pp-eco-ind .peiv{font-size:14px;font-weight:800;color:#1a1a1a;}
+    .pp-eco-ind .peiv{font-size:14px;font-weight:800;color:#0D1B2E;}
     /* portátil */
     .pt-flyers{display:grid;grid-template-columns:1fr 1fr;gap:16px;margin-bottom:16px;}
     .pt-fw{border:1px solid #e5e5e5;border-radius:8px;overflow:hidden;page-break-inside:avoid;break-inside:avoid;}
     .pt-fw img{width:100%;display:block;}
-    .pt-fp{background:#1a1a1a;padding:8px 14px;display:flex;justify-content:space-between;align-items:center;-webkit-print-color-adjust:exact;print-color-adjust:exact;}
+    .pt-fp{background:#0D1B2E;padding:8px 14px;display:flex;justify-content:space-between;align-items:center;-webkit-print-color-adjust:exact;print-color-adjust:exact;}
     .pt-fp .pq{font-size:11px;color:#aaa;}
-    .pt-fp .pv{font-size:13px;font-weight:800;color:#8BBF2E;}
+    .pt-fp .pv{font-size:13px;font-weight:800;color:#2563EB;}
   `;
   
   const printDoc = [
@@ -1773,7 +1975,7 @@ const BUDGET_KEY='sc_budgets_v1';
 function _getBudgets(){try{return JSON.parse(localStorage.getItem(BUDGET_KEY))||{};}catch(e){return {};}}
 function _saveBudgets(d){localStorage.setItem(BUDGET_KEY,JSON.stringify(d));}
 function _collectForm(){
-  const ids=['cl_n','cl_f','cl_l','cl_r','cl_d','cl_o','d_l','d_a','d_at','d_ac','ren',
+  const ids=['cl_n','cl_f','cl_l','cl_r','cl_d','cl_o','ren',
     'op_intro','op_breve','op_tec','op_acl','op_fich','op_conc','op_eco',
     'op_mo_iny','op_mo_ext','mo_iny_val','mo_ext_val','pct_e',
     'chk_com','pct_com','chk_desc','desc_tipo','desc_val','acl_texto','eco_texto',
@@ -1793,10 +1995,12 @@ function saveCurrentBudget(){
   const def=(document.getElementById('cl_n').value||'Sin nombre')+' — '+new Date().toLocaleDateString('es-AR');
   const name=prompt('Nombre del presupuesto:',def);if(name===null)return;
   const nm=name.trim()||def;
+  saveAmbState(); // persist current ambiente before snapshotting
   const budgets=_getBudgets();const id='b'+Date.now();
   const snap={id,name:nm,clientName:document.getElementById('cl_n').value||'—',ref:document.getElementById('cl_r').value||'',
     savedAt:new Date().toISOString(),form:_collectForm(),
-    state:{vol:S.vol,aT:S.aT,aC:S.aC,pE:S.pE,ren:S.ren,qi:{...S.qi},qe:{...S.qe},com:S.com,pCom:S.pCom,desc:S.desc,modo:S.modo,qpt_proj:{...S.qpt_proj}},
+    state:{ambientes:JSON.parse(JSON.stringify(S.ambientes)),ambActivo:S.ambActivo,
+      vol:S.vol,aT:S.aT,aC:S.aC,pE:S.pE,ren:S.ren,qi:{...S.qi},qe:{...S.qe},com:S.com,pCom:S.pCom,desc:S.desc,modo:S.modo,qpt_proj:{...S.qpt_proj}},
     prices:JSON.parse(JSON.stringify(PRICES)),
     ptPrices:typeof PROJ_PT_PRICES!=='undefined'?JSON.parse(JSON.stringify(PROJ_PT_PRICES)):{}};
   budgets[id]=snap;
@@ -1806,15 +2010,29 @@ function saveCurrentBudget(){
 function loadBudget(id){
   const b=_getBudgets()[id];if(!b)return;
   if(!confirm('¿Cargar "'+b.name+'"? Los datos actuales se perderán.'))return;
-  Object.assign(S,b.state);
+  const st=b.state||{};
+  // Restore scalar state fields
+  const {ambientes,ambActivo,qi,qe,...restState}=st;
+  Object.assign(S,restState);
   if(b.prices)Object.assign(PRICES,b.prices);
   if(b.ptPrices&&typeof PROJ_PT_PRICES!=='undefined')Object.assign(PROJ_PT_PRICES,b.ptPrices);
   _applyForm(b.form);
-  updExtPct&&updExtPct();calcDim&&calcDim();calcCaudal&&calcCaudal();
   ['pw','tc','si','po'].forEach(c=>renderTab&&renderTab(c));
   renderExtTab&&renderExtTab();renderProjPtGrid&&renderProjPtGrid();
-  calcEco&&calcEco();updEstados&&updEstados();updSugs&&updSugs();updSugExt&&updSugExt();
-  if(b.state&&b.state.modo)setMode(b.state.modo);
+  // Restore ambientes (or build one from legacy flat state)
+  if(ambientes&&ambientes.length>0){
+    S.ambientes=ambientes;S.ambActivo=ambActivo||0;
+  }else{
+    const leg=defaultAmb();
+    leg.nombre='Ambiente 1';
+    leg.d_l=b.form?.d_l||'';leg.d_a=b.form?.d_a||'';leg.d_at=b.form?.d_at||'';leg.d_ac=b.form?.d_ac||'';
+    leg.vol=st.vol||0;leg.aT=st.aT||0;leg.aC=st.aC||0;leg.pE=st.pE||60;
+    leg.ren_val=b.form?.ren||'';leg.qi={...(qi||{})};leg.qe={...(qe||{})};
+    S.ambientes=[leg];S.ambActivo=0;
+  }
+  loadAmbState(S.ambActivo);renderAmbTabs();
+  calcEco&&calcEco();
+  if(st.modo)setMode(st.modo);
   closeGestor();showToast('✅ Cargado: '+b.name);schedulePreviewUpdate();
 }
 function renameBudget(id){
@@ -1886,7 +2104,7 @@ function updatePreview(force){
       const scale=Math.min((w-20)/794,1);
       const scaledH=Math.round(794*1.414*scale);
       scroll.innerHTML='<div class="preview-scale-wrap" style="width:794px;transform:scale('+scale+');transform-origin:top left;margin-bottom:'+(scaledH-Math.round(794*scale))+'px;">'+inner+'</div>';
-      status.textContent='● En vivo';status.style.color='#8BBF2E';
+      status.textContent='● En vivo';status.style.color='#2563EB';
     }catch(e){status.textContent='⚠ Error';status.style.color='#e74c3c';console.warn('Preview error:',e);}
   });
 }
